@@ -23,7 +23,7 @@ import java.util.Locale
 class Mangaworld : ParsedHttpSource() {
 
     override val name = "Mangaworld"
-    override val baseUrl = "https://www.mangaworld.cc"
+    override val baseUrl = "https://www.mangaworld.cx"
     override val lang = "it"
     override val supportsLatest = true
     override val client: OkHttpClient = network.cloudflareClient
